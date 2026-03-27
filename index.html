@@ -1,47 +1,68 @@
 <html>
-    <head>
-       <link rel="stylesheet" href="index.css">
-       <!-- Google font -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <form class="payment-modal" id="payment-form">
-            <h2 class="modal-title">Enter card details</h2>
-                <div class="input-group">
-                    <input type="text" name="fullName" placeholder="Enter your name" required>
-                </div>
-                <div class="input-group">
-                    <input type="number" name="cardNumber" placeholder="Enter card number" required minlength="16">
-                </div>
-                <div class="input-group">
-                    <input type="password" name="cvv" placeholder="Enter CVV" required maxlength="3">
-                </div>
-            <button type="submit" class="pay-button" data-pay-send='submited'>Pay</button>
-        </form>
-        <header class="container">
-            <img src="HeroBurger.jpg" alt="A burger background">
-            <div class="header-text">
-                <h1>Macdo 2 2</h1>
-                <p>The best burgers and pizzas in town.</p> 
-            </div>
-        </header>
-        <main>
-            <section class="main-container-section" id="list-items">
-                <!-- item menu -->   
-            </section>
-            <section class="order-section main-container-section" id="orderPanel">
-                <!-- order panel popup-->
-            </section>
-            <section class="itIsSubmit main-container-section" id="itIsSubmit">
-                <!-- itIsSubmit panel popup-->
-                <div class="order-details-inner">
-                    <div class="thanks-james-your">Thanks! Your order is on its way!</div>
-                </div>
-            </section>
-        </main>
-	    <script src="index.js" type="module"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="payment-modal" id="payment-form">
+      <h2 class="modal-title">Enter card details (Not real)</h2>
+      <div class="input-group">
+        <input
+          type="text"
+          name="fullName"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <input
+          type="number"
+          name="cardNumber"
+          placeholder="Enter card number"
+          required
+          minlength="16"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          type="password"
+          name="cvv"
+          placeholder="Enter CVV"
+          required
+          maxlength="3"
+        />
+      </div>
+      <button type="submit" class="pay-button" data-pay-send="submited">
+        Pay
+      </button>
+    </form>
+    <header class="container">
+      <img src="HeroBurger.jpg" alt="A burger background" />
+      <div class="header-text">
+        <h1>Macdo 2</h1>
+        <p>The best burgers and pizzas in town.</p>
+      </div>
+    </header>
+    <main>
+      <section class="main-container-section" id="list-items">
+        <!-- item menu -->
+      </section>
+      <section class="order-section main-container-section" id="orderPanel">
+        <!-- order panel popup-->
+      </section>
+      <section class="itIsSubmit main-container-section" id="itIsSubmit">
+        <!-- itIsSubmit panel popup-->
+        <div class="order-details-inner">
+          <div class="thanks-james-your">Thanks! Your order is on its way!</div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
-
