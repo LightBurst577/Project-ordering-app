@@ -1,15 +1,8 @@
-# Getting Started
+https://metricflow9000.netlify.app/
 
-Install the dependencies and run the project
+I'm a developer currently on a journey to master Frontend Web Development. This project is one of my first deep dives into building a functional, real-world application using Vanilla JavaScript.
 
-```
-npm install
-npm start
-```
-
-Hi! I'm a developer currently on a journey to master Frontend Web Development. This project is one of my first deep dives into building a functional, real-world application using Vanilla JavaScript.
-
-💡 What I Learned from This Project
+💡 What I Learned from Scrimba
 
 This project was a huge stepping stone for me. Beyond just writing code, I learned how to think like a developer to solve specific UI and logic problems:
 State Management: I learned how to use an array (itemsInCart) to keep track of user selections and sync that "state" with the UI every time an item is added or removed.
